@@ -3,7 +3,7 @@
  */
 import axios from 'axios';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE || 'http://localhost:8000';
+const API_BASE_URL = import.meta.env.VITE_API_BASE || 'https://skill-palaver-be-production.up.railway.app';
 
 // Create axios instance
 const apiClient = axios.create({
